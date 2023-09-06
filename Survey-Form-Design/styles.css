@@ -1,0 +1,92 @@
+body{
+    background-color:skyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#title,#description{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255,255,255,100%);
+    
+}
+#title{
+    font-size:38.4px;
+    font-weight: bolder;
+}
+form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    min-width: 300px;
+    background-color:rgb(39, 39, 68);
+    color:#ffffff;
+    text-align: start;
+    font-size: 16px;
+}
+fieldset{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
+select{
+    display: block;
+    width: 102%;
+    padding:0.5rem 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+label{
+    display: block;
+}
+#name,#email,#number{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#name-label{
+    margin-top: 2rem;
+}
+#text-area{
+    display: block;
+    width:100%;
+    margin-top: 10px;
+    
+}
+input[type="submit"]{
+    display:block;
+    margin:0 auto;
+    width:102%;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    padding:0.5rem 2rem;
+    color:white;
+    background-color: green;
+    font-weight: bolder;
+}
+label[for="text-area"],#catagory-id{
+    margin-top: 10px;
+}
+#definatly,#maybe,#not-sure{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+#front-end,#back-end,#additional-courses,#forum,#city-meetups,#wiki,#gitter-help,#videos,#open-source,#data-visualization,#challenges{
+    margin-top: 8px;
+
+}
+@media screen and (max-width:35em) {
+    #title{
+        font-size:23px;
+    }
+    #description{
+        font-size: 16px;
+    }
+}
+
+
